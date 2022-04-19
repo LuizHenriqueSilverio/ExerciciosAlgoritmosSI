@@ -10,9 +10,10 @@ programa {
         maior = 0
         menor = 0
         
-        escreva("Insira qualquer n�mero(insira 0 para sair): ")
+        escreva("Insira qualquer número(insira 0 para sair): ")
         leia(num)
         menor = num
+        maior = num
         
         faca{
             leia(num)
@@ -31,9 +32,21 @@ programa {
 
         }enquanto(x == verdadeiro)
 
-        escreva("O maior n�mero inserido foi: ", maior, "\n")
-        escreva("O menor n�mero inserido foi: ", menor)
+        escreva("O maior número inserido foi: ", maior, "\n")
+        escreva("O menor número inserido foi: ", menor)
 
 	}
 		
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 511; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
