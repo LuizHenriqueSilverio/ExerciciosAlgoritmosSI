@@ -16,6 +16,10 @@ programa {
             alturaChico += 2
             alturaJuca += 4
             ano++
+
+         	  escreva("Anos passados: ", ano, "\n")
+         	  escreva("Altura de Chico: ", alturaChico, " cm \n")
+         	  escreva("Altura de Juca: ", alturaJuca, " cm \n")
         
             se(alturaJuca > alturaChico){
                 x = verdadeiro
@@ -23,7 +27,19 @@ programa {
         
         }
 
-	    escreva("Ser�o necess�rios ", ano, " anos para Juca ser maior que Chico.")
+	    escreva("Serão necessários ", ano, " anos para Juca ser maior que Chico.")
 	    
 	}
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 362; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
