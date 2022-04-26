@@ -12,11 +12,13 @@ programa {
                 escreva("Insira o tempo da volta n°", contVoltas, ":")
                 leia(tempo)
                 soma = soma + tempo
-                se(soma < compT ou compT == 0){
+            }
+            
+            se(soma < compT ou compT == 0){
                 compT = soma
                 compV = contComp
-                }
             }
+            soma = 0
         
         }
         escreva(compV)
