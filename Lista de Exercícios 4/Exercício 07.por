@@ -1,16 +1,17 @@
 programa {
 	funcao inicio() {
 		
-        inteiro num, fib = 1
+        inteiro num, fibAnterior = 0, fibProximo = 1, soma = 0
         
-        escreva("Insira um número: ")
+        escreva("Insira o limite da sequência de fibonacci: ")
         leia(num)
-        escreva("Sequência Fibonacci, com limite até ", num, ": \n")
-        escreva(fib)
+        escreva("Sequência Fibonacci, até o termo nº", num,":\n")
         
-        para(inteiro i = fib; i <= num; i += (fib - i)){
-            fib += (fib - i)
-            escreva(fib, "\n")
+        para(inteiro i = 0; i <= num; i++){
+            escreva(soma, ", ")
+            soma = fibAnterior + fibProximo
+            fibAnterior = fibProximo
+            fibProximo = soma
         }
 
 	}
